@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react';
 
+import './styles.css';
 import api from '../../services/api';
 
 interface Cerveja {
     id: number;
-    title: String;
-    imageUrl: String;
+    title: string;
+    imageUrl: string;
 }
 
 const Cervejas = () => {
@@ -17,13 +18,18 @@ const Cervejas = () => {
     }, []);
 
     return (
-        <ul>
+        <>
+        <ul className="items-grid">
             {cervejas.map( cerveja => (
                 <li key={cerveja.id}>
-                    {cerveja.title}
+                   <img src={cerveja.imageUrl} alt={cerveja.title} />
+                   <span>
+                       {cerveja.title}
+                    </span> 
                 </li>
             ))}
         </ul>
+        </>
     );
 }
 
