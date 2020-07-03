@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CardBar from '../../components/card-bar';
+import CardBar from '../../components/CardBar';
 
 import './styles.css';
 
@@ -10,4 +10,4 @@ const Home = () => {
 	);
 }
 
-export default Home;
+export default Home; 
