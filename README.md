@@ -4,7 +4,7 @@
 
 ## O Projeto
 
-A demo da nosso solucao foi desenvolvida em React usando typescript. 
+Tendo como base o design da aplicacao A demo da nosso solucao foi desenvolvida em React usando typescript.
 
 ## Tecnologias Utilizadas
 
