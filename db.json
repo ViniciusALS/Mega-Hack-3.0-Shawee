@@ -16,5 +16,13 @@
 		{ "id": 14, "title": "Nortena", "imageUrl": "https://imgur.com/TWkkOoU.png" },
 		{ "id": 15, "title": "Löwenbräu", "imageUrl": "https://imgur.com/Hd1uSQy.png" },
 		{ "id": 16, "title": "Franziskaner", "imageUrl": "https://imgur.com/3wqgkoT.png" }
+	],
+
+	"disponibilidades": [
+		{ "id": 1, "nome": "", "imageURL": "" }
+	],
+
+	"bares": [
+		{ "id": 1, "nome": "Social Burguer", "imageUrl": "", "nota": 3.5, "distancia": 300}
 	]
 }
