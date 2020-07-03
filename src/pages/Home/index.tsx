@@ -6,7 +6,7 @@ import './styles.css';
 
 const Home = () => {
 	return (
-		<CardBar nome="Social Burguer" nota={3} latitude={1.235432} longitude={-23.124632} disponibilidades={["sdf", "sldkjf"]}/>
+		<CardBar nome="Social Burguer" nota={3} distance={1.235432} disponibilidades={["sdf", "sldkjf"]}/>
 	);
 }
 

@@ -1,22 +1,23 @@
 import React from 'react';
-
 import './styles.css';
+
+import NotaDoBar from '../NotaDoBar';
 
 type CardBarProps = {
 	nome: string,
 	nota: number,
-	latitude: number,
-	longitude: number,
+	distance: number,
 	disponibilidades: [ string, string ]
 }
 
-const CardBar: React.FC<CardBarProps> = ({nome, nota, latitude, longitude, disponibilidades}) => {
+const CardBar: React.FC<CardBarProps> = ({ nome, nota, distance, disponibilidades}) => {
 	
 	return (
 		<div className="card-bar">
 			<img src="" alt='Foto do bar' />
-			<h3>{nome}</h3>
-			
+      <h3>{nome}</h3>
+      <NotaDoBar nota={nota} />
+      <span>{distance}m</span>
 		</div>
 	);
 }
