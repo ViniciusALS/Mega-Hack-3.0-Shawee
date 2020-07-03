@@ -23,6 +23,8 @@
 	],
 
 	"bares": [
-		{ "id": 1, "nome": "Social Burguer", "imageUrl": "", "nota": 3.5, "distancia": 300}
+		{ "id": 1, "nome": "Social Burguer", "imageUrl": "https://imgur.com/f1afkzh.png", "nota": 3.5, "distancia": 300, "disponibilidades": [] },
+		{ "id": 2, "nome": "Rock Bar", "imageUrl": "https://imgur.com/HeegzZw.png", "nota": 4.1, "distancia": 200, "disponibilidades": [] },
+		{ "id": 3, "nome": "Puzzles",  "imageUrl": "https://imgur.com/V9AqQVT.png", "nota": 2.3, "distancia": 50, "disponibilidades": [] }
 	]
 }
