@@ -1,20 +1,84 @@
 {
-    "cervejas": [
-      { "id": 1, "title": "Leffe", "imageUrl": "https://imgur.com/2t2lf5X.png" },
-      { "id": 2, "title": "Wäls", "imageUrl": "" },
-      { "id": 3, "title": "Hoegaarden", "imageUrl": "" },
-      { "id": 4, "title": "Corona", "imageUrl": "" },
-      { "id": 5, "title": "Colorado", "imageUrl": "" },
-      { "id": 6, "title": "Skol", "imageUrl": "" },
-      { "id": 7, "title": "Antarctica", "imageUrl": "" },
-      { "id": 8, "title": "Brahma", "imageUrl": "" },
-      { "id": 9, "title": "Budweiser", "imageUrl": "" },
-      { "id": 10, "title": "Stella Artois", "imageUrl": "" },
-      { "id": 11, "title": "Serra Malte", "imageUrl": "" },
-      { "id": 12, "title": "Quilmes", "imageUrl": "" },
-      { "id": 13, "title": "Patagonia", "imageUrl": "" },
-      { "id": 14, "title": "Nortena", "imageUrl": "" },
-      { "id": 15, "title": "Hoegaarden", "imageUrl": "" },
-      { "id": 16, "title": "Franziskaner", "imageUrl": "" }
-    ]
+  "cervejas": [
+    {
+      "id": 1,
+      "title": "Leffe",
+      "imageUrl": "https://imgur.com/2t2lf5X.png"
+    },
+    {
+      "id": 2,
+      "title": "Wäls",
+      "imageUrl": "https://imgur.com/88TwobO.png"
+    },
+    {
+      "id": 3,
+      "title": "Hoegaarden",
+      "imageUrl": "https://imgur.com/gQUIMVM.png"
+    },
+    {
+      "id": 4,
+      "title": "Corona",
+      "imageUrl": "https://imgur.com/dGrQaJe.png"
+    },
+    {
+      "id": 5,
+      "title": "Colorado",
+      "imageUrl": "https://imgur.com/MkbjUmP.png"
+    },
+    {
+      "id": 6,
+      "title": "Skol",
+      "imageUrl": "https://imgur.com/nhYKKRU.png"
+    },
+    {
+      "id": 7,
+      "title": "Antarctica",
+      "imageUrl": "https://imgur.com/iMuWrxH.png"
+    },
+    {
+      "id": 8,
+      "title": "Brahma",
+      "imageUrl": "https://imgur.com/NNjCbSP.png"
+    },
+    {
+      "id": 9,
+      "title": "Budweiser",
+      "imageUrl": "https://imgur.com/xUHnyyu.png"
+    },
+    {
+      "id": 10,
+      "title": "Stella Artois",
+      "imageUrl": "https://imgur.com/svCDJDg.png"
+    },
+    {
+      "id": 11,
+      "title": "Serra Malte",
+      "imageUrl": "https://imgur.com/TvOLtk1.png"
+    },
+    {
+      "id": 12,
+      "title": "Quilmes",
+      "imageUrl": "https://imgur.com/hdobPoS.png"
+    },
+    {
+      "id": 13,
+      "title": "Patagonia",
+      "imageUrl": "https://imgur.com/e4PlnK7.png"
+    },
+    {
+      "id": 14,
+      "title": "Nortena",
+      "imageUrl": "https://imgur.com/TWkkOoU.png"
+    },
+    {
+      "id": 15,
+      "title": "Löwenbräu",
+      "imageUrl": "https://imgur.com/Hd1uSQy.png"
+    },
+    {
+      "id": 16,
+      "title": "Franziskaner",
+      "imageUrl": "https://imgur.com/3wqgkoT.png"
+    }
+  ]
 }
