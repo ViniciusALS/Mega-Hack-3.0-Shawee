@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import './styles.css';
 import api from '../../services/api';
 
+import logo from '../../resources/cervejas/leffe-blonde-blond.png';
+
 interface Cerveja {
     id: number;
     title: string;
@@ -22,6 +24,7 @@ const Cervejas = () => {
         <ul className="items-grid">
             {cervejas.map( cerveja => (
                 <li key={cerveja.id}>
+                   {/* <img src={logo} alt={cerveja.title} /> */}
                    <img src={cerveja.imageUrl} alt={cerveja.title} />
                    <span>
                        {cerveja.title}
