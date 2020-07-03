@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './styles.css';
+
 type CardBarProps = {
 	nome: string,
 	nota: number,
@@ -12,7 +14,9 @@ const CardBar: React.FC<CardBarProps> = ({nome, nota, latitude, longitude, dispo
 	
 	return (
 		<div className="card-bar">
-			test
+			<img src="" alt='Foto do bar' />
+			<h3>{nome}</h3>
+			
 		</div>
 	);
 }
