@@ -1,0 +1,14 @@
+{
+    "cervejas": [
+      { "id": 1, "title": "Leffe", "imageUrl": "" },
+      { "id": 2, "title": "Wäls", "imageUrl": "" },
+      { "id": 3, "title": "Hoegaarden", "imageUrl": "" },
+      { "id": 4, "title": "Corona", "imageUrl": "" },
+      { "id": 5, "title": "Colorado", "imageUrl": "" },
+      { "id": 6, "title": "Skol", "imageUrl": "" },
+      { "id": 7, "title": "Antarctica", "imageUrl": "" },
+      { "id": 8, "title": "Brahma", "imageUrl": "" },
+      { "id": 9, "title": "Budweiser", "imageUrl": "" },
+      { "id": 10, "title": "Original", "imageUrl": "" }
+    ]
+}
