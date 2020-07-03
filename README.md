@@ -6,6 +6,12 @@
 
 Tendo como base o design da aplicacao ( que pode ser visto acessando esse [link](#) ) criado no Figma, desenvolvemos a demo da nosso solucao usando React.
 
+## JSON-SERVER
+
+Subir o servidor json-server, executar o comando abaixo.
+
+- json-server --watch db.json --port 3004
+
 ## Tecnologias Utilizadas
 
 - [json server](http://zetcode.com/javascript/jsonserver/)
