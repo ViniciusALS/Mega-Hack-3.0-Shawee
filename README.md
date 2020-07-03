@@ -4,7 +4,7 @@
 
 ## O Projeto
 
-Tendo como base o design da aplicacao A demo da nosso solucao foi desenvolvida em React usando typescript.
+Tendo como base o design da aplicacao ( que pode ser visto acessando esse [link](#) ) criado no Figma, desenvolvemos a demo da nosso solucao usando React.
 
 ## Tecnologias Utilizadas
 
