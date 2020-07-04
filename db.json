@@ -105,5 +105,24 @@
         { "id": 5,  "title": "Colorado", "imageUrl": "https://imgur.com/MkbjUmP.png" }
       ]
     }
+  ],
+
+  "eventos": [
+    { 
+      "id": 1, 
+      "nome": "Cover Bon Jovi",  
+      "imageUrl": "", 
+      "bar": { "id": 2, "nome": "Rock Bar", "distancia": "200m" },
+      "data": "13 / 07",
+      "hora": "22:30"
+    },
+    { 
+      "id": 2, 
+      "nome": "Jogo do Flamengo",  
+      "imageUrl": "", 
+      "bar": { "id": 3, "nome": "Puzzles", "distancia": "50m" },
+      "data": "15 / 07",
+      "hora": "16:00"
+    }
   ]
 }
