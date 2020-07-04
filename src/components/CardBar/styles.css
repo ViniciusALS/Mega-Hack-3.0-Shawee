@@ -1,8 +1,9 @@
 .card-bar {
 	background-color: #EEEEEE;
-	padding: 0.5em;
+	padding: 1em;
 	width: auto;
 	border-radius: 0.5em;
+	box-shadow: 0px 12.5085px 25.0169px rgba(0, 0, 0, 0.1);
 }
 
 .card-bar-img {
@@ -12,12 +13,33 @@
 }
 
 .card-bar-titulo {
-	font-weight: 500;
+	font-weight: 700;
 	display: block;
+	color: #222;
+	margin: 0.5em 0;
+	font-size: 1.1em;
+}
+
+.card-bar-distance-division {
+	background-color: #505050;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 0.5em;
+	margin-bottom: 0.15em;
+
 }
 
 .card-bar-distancia {
 	display: inline-block;
+	color: #505050;
+	font-weight: 500;
+	font-size: 0.9em;
+}
+
+.card-bar-disponibilidades {
+
 }
 
 .card-bar-disponibilidade-img {
