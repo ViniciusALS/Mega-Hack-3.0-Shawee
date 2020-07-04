@@ -13,6 +13,11 @@
 
 .card-bar-titulo {
 	font-weight: 500;
+	display: block;
+}
+
+.card-bar-distancia {
+	display: inline-block;
 }
 
 .card-bar-disponibilidade-img {
