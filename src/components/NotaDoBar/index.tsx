@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 
 import Star from '../../resources/star.png';
 
@@ -6,7 +7,9 @@ type NotaProps = {
   	nota: number
 }
 
-const NotaDoBar: React.FC<NotaProps> = ({nota}) => {
+type className = string;
+
+const NotaDoBar: React.FC<NotaProps> = ({nota}, {className = ''}) => {
   
   	const value = Math.round(nota);
 
@@ -21,7 +24,7 @@ const NotaDoBar: React.FC<NotaProps> = ({nota}) => {
   	}
 
 	return (
-		<div> {stars} </div>
+    <div className={`notas ${className}`}> {stars} </div>
 	);
 }
 
