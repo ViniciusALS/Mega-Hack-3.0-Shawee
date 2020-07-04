@@ -26,7 +26,7 @@ const Home = () => {
 	};
 
 	return (
-    <>
+    <div className='home'>
       <h2>Cervejas para você</h2>
       <Cervejas selected={setItems} />
       
@@ -44,7 +44,7 @@ const Home = () => {
       
       <h3>O que vai rolar</h3>
       <h3>Promoções</h3>
-		</>		
+		</div>		
 	);
 }
 
