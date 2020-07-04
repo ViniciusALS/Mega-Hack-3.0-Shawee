@@ -3,30 +3,54 @@ import React, { useState, useEffect } from 'react';
 import './styles.css';
 import api from '../../services/api';
 
-import logo from '../../resources/cervejas/leffe-blonde-blond.png';
-
 interface Cerveja {
     id: number;
     title: string;
     imageUrl: string;
 }
 
-const Cervejas = () => {
+interface Props {
+    selected: (items: number) => void;
+}
+
+const Cervejas: React.FC<Props> = ({ selected }) => {
 
     const [ cervejas, setCervejas ] = useState<Cerveja[]>([]);
+    const [ selectedItems, setSelectedItems ] = useState<number[]>([]);
 
     useEffect(() => {
-        api.get('/cervejas').then(res => setCervejas(res.data));
+        api.get('cervejas').then(res => setCervejas(res.data));
     }, []);
+
+    function handleSelectItem(id: number) {
+
+        const alreadySelected = selectedItems.findIndex(item => item === id)
+
+        if ( alreadySelected >= 0) {
+
+            const filteredItems = selectedItems.filter(item => item !== id);
+            
+            setSelectedItems(filteredItems);
+            selected(id);
+        } else {
+
+            setSelectedItems([
+                ...selectedItems, id
+            ]);
+            selected(id);
+        }
+
+    }
 
     return (
         <>
         <ul className="items-grid">
             {cervejas.map( cerveja => (
-                <li key={cerveja.id}>
-                   {/* <img src={logo} alt={cerveja.title} /> */}
+                <li key={cerveja.id}
+                    onClick={() => handleSelectItem(cerveja.id)}
+                    >
                    <img src={cerveja.imageUrl} alt={cerveja.title} />
-                   <span>
+                   <span className={selectedItems.includes(cerveja.id) ? 'selected' : '' }>
                        {cerveja.title}
                     </span> 
                 </li>
