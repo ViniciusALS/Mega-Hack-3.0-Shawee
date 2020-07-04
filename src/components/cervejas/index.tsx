@@ -49,7 +49,7 @@ const Cervejas: React.FC<Props> = ({ selected }) => {
                 <li key={cerveja.id}
                     onClick={() => handleSelectItem(cerveja.id)}
                     >
-                   {/* <img src={cerveja.imageUrl} alt={cerveja.title} /> */}
+                   <img src={cerveja.imageUrl} alt={cerveja.title} />
                    <span className={selectedItems.includes(cerveja.id) ? 'selected' : '' }>
                        {cerveja.title}
                     </span> 
