@@ -4,6 +4,7 @@ import api from '../../services/api';
 
 import './styles.css';
 import star from '../../resources/star.png';
+import phone from '../../resources/phone.svg';
 
 interface Disponibilidade {
     id: Number; 
@@ -62,6 +63,11 @@ const Detail = () => {
 
     return (
         <>
+            <div id="phone">
+                <a href="">
+                    <img src={phone} alt="phone"/>
+                </a>
+            </div>
             <div id="detail-container">
                 <header>
                     <img src={bar.imageUrl} alt={bar.nome}/>
