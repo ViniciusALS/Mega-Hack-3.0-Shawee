@@ -30,7 +30,7 @@ const Home = () => {
 			<Cervejas selected={setItems} />
       <CardBar
         nome="Social Burguer"
-        imageURL=""
+        imageURL="https://imgur.com/f1afkzh.png"
         nota={3}
         distance={300}
         disponibilidades={[1, 2, 3]} />
