@@ -23,6 +23,8 @@ interface Bar {
     nome: string; 
     imageUrl: string; 
     nota: Number;
+    contato: string;
+    menu: string;
     distancia: string;
     descricao: string;
     endereco: string; 
@@ -37,7 +39,9 @@ const Detail = () => {
     const [ bar, setBar ] = useState<Bar>( { id: 0, 
                                             nome: "", 
                                             imageUrl: "", 
-                                            nota: 0, 
+                                            nota: 0,
+                                            contato: "",
+                                            menu: "",
                                             distancia: "", 
                                             descricao: "", 
                                             endereco: "", 
@@ -64,7 +68,7 @@ const Detail = () => {
     return (
         <>
             <div id="phone">
-                <a href="">
+                <a href={`tel:${bar.contato}`}>
                     <img src={phone} alt="phone"/>
                 </a>
             </div>
@@ -91,7 +95,7 @@ const Detail = () => {
                             </div>
                         </div>
                         <div className="menu">
-                            <a href="">MENU</a>
+                            <a href={bar.menu} target="_blank">MENU</a>
                         </div>
                     </div>
                     <hr className="divisor-line"/>
