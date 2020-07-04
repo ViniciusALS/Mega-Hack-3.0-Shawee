@@ -3,3 +3,14 @@
 	width: 100px;
 	background-color: #EEEEEE;
 }
+
+.card-bar-img {
+	width: 200px;
+	height: 150px;
+}
+
+.card-bar-disponibilidade-img {
+	width: 20px;
+	height: 20px;
+	color: black;
+}
