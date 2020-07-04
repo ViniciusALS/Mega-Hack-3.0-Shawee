@@ -6,7 +6,12 @@ import './styles.css';
 
 const Home = () => {
 	return (
-		<CardBar nome="Social Burguer" nota={3} distance={1.235432} disponibilidades={["sdf", "sldkjf"]}/>
+    <CardBar
+      nome="Social Burguer"
+      imageURL=""
+      nota={3}
+      distance={300}
+      disponibilidades={[1, 2, 3]} />
 	);
 }
 
