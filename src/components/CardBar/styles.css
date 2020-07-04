@@ -39,11 +39,11 @@
 }
 
 .card-bar-disponibilidades {
-
+	margin-top: 0.5em;
 }
 
 .card-bar-disponibilidade-img {
-	width: 20px;
-	height: 20px;
-	color: black;
+	width: 30px;
+	height: 30px;
+	margin-right: 0.5em;
 }
