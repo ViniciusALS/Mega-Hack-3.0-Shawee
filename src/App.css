@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap');
+
 :root {
     --primary-color: #34CB79;
     --title-color: #322153;
@@ -13,7 +15,7 @@ body {
 }
 
 body, input, button {
-    font-family: Roboto, Arial, Helvetica, sans-serif;
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
