@@ -11,6 +11,12 @@ interface Disponibilidade {
     imageURL: string;
 }
 
+interface Cerveja {
+    id: number;
+    title: string;
+    imageUrl: string;
+}
+
 interface Bar {
     id: Number; 
     nome: string; 
@@ -20,6 +26,7 @@ interface Bar {
     descricao: string;
     endereco: string; 
     disponibilidades: Disponibilidade[];
+    cervejas: Cerveja[];
 }
 
 const Detail = () => {
@@ -33,8 +40,10 @@ const Detail = () => {
                                             distancia: "", 
                                             descricao: "", 
                                             endereco: "", 
-                                            disponibilidades: [] });
+                                            disponibilidades: [],
+                                            cervejas: [] });
     const [ atrativos, setAtrativos ] = useState<Disponibilidade[]>([]);
+    const [ cervejas, setCervejas ] = useState<Cerveja[]>([]);
     const [ stars, setStars ] = useState<number[]>([]);
 
     useEffect(() => {
@@ -43,6 +52,7 @@ const Detail = () => {
                 
                 setBar(res.data);
                 setAtrativos(res.data.disponibilidades);
+                setCervejas(res.data.cervejas);
                 const arr = Array(res.data.nota).fill(null).map((_, i) => i);
 
                 setStars(arr);
@@ -54,7 +64,7 @@ const Detail = () => {
         <>
             <div id="detail-container">
                 <header>
-                    <img src={bar.imageUrl} alt={bar.nome} className="bar-image"/>
+                    <img src={bar.imageUrl} alt={bar.nome}/>
                 </header>
                 <main>
                     <div className="bar-nome">
@@ -90,6 +100,21 @@ const Detail = () => {
                             <p className="delivery">
                                 Possui serviço de delivery
                             </p>
+                        </div>
+                    </div>
+                    <div className="cervejas">
+                        <ul className="items-grid">
+                            {cervejas.map( cerveja => (
+                                <li key={cerveja.id}>
+                                <img src={cerveja.imageUrl} alt={cerveja.title} />
+                                <span>
+                                    {cerveja.title}
+                                    </span> 
+                                </li>
+                            ))}
+                        </ul>
+                        <div className="preferidas">
+                            <p className="delivery">Temos suas cervejas preferidas geladas!!!</p>
                         </div>
                     </div>
                     <div className="reserva">

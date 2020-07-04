@@ -12,7 +12,7 @@
     flex-direction: column;
 }
 
-#detail-container img.bar-image {
+#detail-container header img {
     width: 100%;
     height: 200px;
 }
@@ -156,7 +156,7 @@
 
 #detail-container main .atrativos {
     width: 100%;
-    margin-left: 10px;
+    margin-left: 20px;
 
     display: flex;
     flex-direction: column;
@@ -172,9 +172,6 @@
     align-items: flex-start;
 }
 
-#detail-container main .atrativos .atrativos-items .item-img {
-
-}
 #detail-container main .atrativos .atrativos-items .item-img img {
     width: 30px;
     height: 30px;
@@ -190,3 +187,60 @@
     color: #222;
     opacity: 0.4;
 }
+
+#detail-container main .cervejas .items-grid {
+    display: flex;
+    gap: 16px;
+    list-style: none;
+    overflow-x: auto;
+}
+
+#detail-container main .cervejas .items-grid::-webkit-scrollbar {    
+    display: none;
+}
+
+#detail-container main .cervejas .items-grid img {
+    width: 55px;
+    height: 55px;
+}
+
+#detail-container main .cervejas .items-grid li {
+    background: transparent;
+    border: 0;
+    height: 100px;
+    padding: 22px 14px 6px;
+    pointer-events:none;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  
+    text-align: center;
+  
+    cursor: pointer;
+  }
+  
+  #detail-container main .cervejas .items-grid li span {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    color: #000;
+    transition: all 0.2s;
+  }
+
+  #detail-container main .cervejas .preferidas {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #detail-container main .cervejas .preferidas p.delivery {
+    margin: 10px auto;
+    color: #955F2A;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
