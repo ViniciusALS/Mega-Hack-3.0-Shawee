@@ -51,8 +51,8 @@ const Home = () => {
 			
 			<h3>Bares perto de você</h3>
 
-			{
-				bares.map(bar => 
+			<div className='home-bares'> {
+				bares.slice(0, 2).map(bar => 
 					<CardBar
 						nome={bar.nome}
 						imageURL={bar.imageUrl}
@@ -60,7 +60,7 @@ const Home = () => {
 						distance={bar.distancia}
 						disponibilidades={bar.disponibilidades} />
 				)
-			}
+			} </div>
 			
 			<h3>O que vai rolar</h3>
 			<h3>Promoções</h3>

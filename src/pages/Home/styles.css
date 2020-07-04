@@ -11,3 +11,9 @@ h3 {
 .home {
 	padding: 2em;
 }
+
+.home-bares {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
