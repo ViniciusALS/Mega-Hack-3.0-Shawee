@@ -13,7 +13,7 @@ type CardBarProps = {
 	nome: string,
 	imageURL: string,
 	nota: number,
-	distance: number,
+	distance: string,
 	disponibilidades: disponibilidade[]
 }
 
@@ -25,7 +25,7 @@ const CardBar: React.FC<CardBarProps> = ({ nome, imageURL, nota, distance, dispo
 			<span className='card-bar-titulo'>{nome}</span>
 			<NotaDoBar nota={nota} />
 			<div className='card-bar-distance-division'></div>
-			<span className='card-bar-distancia'>{distance} m</span>
+			<span className='card-bar-distancia'>{distance}</span>
 			<div className='card-bar-disponibilidades'>
 				{disponibilidades.map(disponibilidade => {
 					return (
