@@ -28,7 +28,8 @@
 	],
 
 	"bares": [
-    { "id": 1, 
+    { 
+      "id": 1, 
       "nome": "Raru`s Burguer", 
       "imageUrl": "https://imgur.com/f1afkzh.png", 
       "nota": 3, 
@@ -40,8 +41,10 @@
         { "id": 2, "nome": "Brinquedoteca", "imageURL": "https://imgur.com/0YUzSOT.png" },
         { "id": 3, "nome": "Area de Jogos", "imageURL": "https://imgur.com/8nCFLw7.png" },
         { "id": 4, "nome": "Banheiros Higienicos", "imageURL": "https://imgur.com/Ogral1Y.png" }
-      ]},
-    { "id": 2, 
+      ]
+    },
+    { 
+      "id": 2, 
       "nome": "Rock Bar", 
       "imageUrl": "https://imgur.com/HeegzZw.png", 
       "nota": 4, 
@@ -53,8 +56,10 @@
         { "id": 4, "nome": "Banheiros Higienicos", "imageURL": "https://imgur.com/Ogral1Y.png" },
         { "id": 5, "nome": "Musica ao Vivo", "imageURL": "https://imgur.com/GpIE2nB.png" },
         { "id": 6, "nome": "Kareoke", "imageURL": "https://imgur.com/18zAFwz.png" }
-      ] },
-    { "id": 3, 
+      ] 
+    },
+    { 
+      "id": 3, 
       "nome": "Puzzles",  
       "imageUrl": "https://imgur.com/V9AqQVT.png", 
       "nota": 2, 
@@ -66,6 +71,7 @@
         { "id": 3, "nome": "Area de Jogos", "imageURL": "https://imgur.com/8nCFLw7.png" },
         { "id": 4, "nome": "Banheiros Higienicos", "imageURL": "https://imgur.com/Ogral1Y.png" },
         { "id": 5, "nome": "Musica ao Vivo", "imageURL": "https://imgur.com/GpIE2nB.png" }
-      ] }
-    ]
+      ] 
+    }
+  ]
 }
