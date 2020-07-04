@@ -1,0 +1,49 @@
+.card-bar {
+	background-color: #EEEEEE;
+	padding: 0.6em;
+	width: 40%;
+	border-radius: 0.5em;
+	box-shadow: 0px 12.5085px 25.0169px rgba(0, 0, 0, 0.15);
+}
+
+.card-bar-img {
+	width: 100%;
+	display: block;
+	border-radius: 0.5em;
+}
+
+.card-bar-titulo {
+	font-weight: 700;
+	display: block;
+	color: #222;
+	margin: 0.5em 0;
+	font-size: 0.9em;
+}
+
+.card-bar-distance-division {
+	background-color: #505050;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	display: inline-block;
+	margin: 0 0.5em;
+	margin-bottom: 0.2em;
+
+}
+
+.card-bar-distancia {
+	display: inline-block;
+	color: #505050;
+	font-weight: 500;
+	font-size: 0.8em;
+}
+
+.card-bar-disponibilidades {
+	margin-top: 0.5em;
+}
+
+.card-bar-disponibilidade-img {
+	width: 20px;
+	height: 20px;
+	margin-right: 0.5em;
+}
