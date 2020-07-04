@@ -33,7 +33,8 @@ const Home = () => {
         imageURL="https://imgur.com/f1afkzh.png"
         nota={3}
         distance={300}
-        disponibilidades={[1, 2, 3]} />
+        disponibilidades={[{ "id": 1, "nome": "Segurança contra o COVID-19", "imageURL": "https://imgur.com/iaTXemX.png" },
+        { "id": 3, "nome": "Area de Jogos", "imageURL": "https://imgur.com/8nCFLw7.png" }]} />
 		</>		
 	);
 }
