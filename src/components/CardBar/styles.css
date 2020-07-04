@@ -1,12 +1,18 @@
 .card-bar {
-	height: 100px;
-	width: 100px;
 	background-color: #EEEEEE;
+	padding: 0.5em;
+	width: auto;
+	border-radius: 0.5em;
 }
 
 .card-bar-img {
-	width: 200px;
-	height: 150px;
+	width: 100%;
+	display: block;
+	border-radius: 0.5em;
+}
+
+.card-bar-titulo {
+	font-weight: 500;
 }
 
 .card-bar-disponibilidade-img {

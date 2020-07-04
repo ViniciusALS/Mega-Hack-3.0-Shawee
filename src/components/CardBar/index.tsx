@@ -22,7 +22,7 @@ const CardBar: React.FC<CardBarProps> = ({ nome, imageURL, nota, distance, dispo
 	return (
 		<div className="card-bar">
 			<img className='card-bar-img' src={imageURL} alt='Foto do bar' />
-			<h3>{nome}</h3>
+			<span className='card-bar-titulo'>{nome}</span>
 			<NotaDoBar nota={nota} />
 			<span>{distance}m</span>
 			<div>
