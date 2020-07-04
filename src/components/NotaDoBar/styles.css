@@ -1,3 +1,13 @@
 .notas {
 	display: inline-block;
 }
+
+.notas img {
+	width: 1em;
+	height: 1em;
+	margin-right: 0.3em;
+}
+
+.notas img:last-child {
+	margin-right: 0em;
+}
