@@ -28,8 +28,8 @@
 	],
 
 	"bares": [
-		{ "id": 1, "nome": "Raru`s Burguer", "imageUrl": "https://imgur.com/f1afkzh.png", "nota": 3.5, "distancia": 300, "disponibilidades": [1, 2] },
-		{ "id": 2, "nome": "Rock Bar", "imageUrl": "https://imgur.com/HeegzZw.png", "nota": 4.1, "distancia": 200, "disponibilidades": [] },
-		{ "id": 3, "nome": "Puzzles",  "imageUrl": "https://imgur.com/V9AqQVT.png", "nota": 2.3, "distancia": 50, "disponibilidades": [] }
+		{ "id": 1, "nome": "Raru`s Burguer", "imageUrl": "https://imgur.com/f1afkzh.png", "nota": 3.5, "distancia": 300, "disponibilidades": [1, 2, 3, 4] },
+		{ "id": 2, "nome": "Rock Bar", "imageUrl": "https://imgur.com/HeegzZw.png", "nota": 4.1, "distancia": 200, "disponibilidades": [1, 4, 5, 6] },
+		{ "id": 3, "nome": "Puzzles",  "imageUrl": "https://imgur.com/V9AqQVT.png", "nota": 2.3, "distancia": 50, "disponibilidades": [1, 3, 4, 5] }
 	]
 }
