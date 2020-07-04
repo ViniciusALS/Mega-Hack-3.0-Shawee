@@ -15,12 +15,12 @@ const NotaDoBar: React.FC<NotaProps> = ({nota}, {className = ''}) => {
 
   	let stars = [];
 
-  	for (let i = 0; i < 5; i++) {
+  	for (let i = 0; i < 3; i++) {
 
     	if (i < value)
-			stars.push(<img src={Star} alt='Nota do bar' key={i} />);
+			  stars.push(<img src={Star} alt='Nota do bar' key={i} />);
     	else
-			stars.push(<img src={Star} alt='Nota do bar' key={i} />);
+			  stars.push(<img src={Star} alt='Nota do bar' key={i} />);
   	}
 
 	return (
