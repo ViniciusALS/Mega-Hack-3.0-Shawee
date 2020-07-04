@@ -8,7 +8,7 @@ type CardBarProps = {
   imageURL: string,
 	nota: number,
 	distance: number,
-	disponibilidades: [ number ]
+	disponibilidades: number[]
 }
 
 const CardBar: React.FC<CardBarProps> = ({ nome, imageURL, nota, distance, disponibilidades}) => {
