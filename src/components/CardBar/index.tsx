@@ -24,7 +24,7 @@ const CardBar: React.FC<CardBarProps> = ({ nome, imageURL, nota, distance, dispo
 			<img className='card-bar-img' src={imageURL} alt='Foto do bar' />
 			<span className='card-bar-titulo'>{nome}</span>
 			<NotaDoBar nota={nota} />
-			<span>{distance}m</span>
+			<span className='card-bar-distancia'>{distance}m</span>
 			<div>
 				{disponibilidades.map(disponibilidade => {
 					return (
