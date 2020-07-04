@@ -1,3 +1,25 @@
+#phone a {
+    
+    width: 40px;
+    height: 40px;
+    padding-top: 17px; 
+    padding-left: 17px;
+    position: absolute;
+    top: 175px;
+    right: 50px;
+
+    border: 1px solid rgb(112, 110, 110);
+    border-radius: 100px;
+    background: rgb(235, 233, 233);
+    z-index: 10000;
+
+}
+#phone img {
+    
+    width: 25px;
+    height: 25px;
+}
+
 #detail-container {
     width: 100%;
     margin: 0 auto;
