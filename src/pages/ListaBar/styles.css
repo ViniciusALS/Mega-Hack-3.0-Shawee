@@ -102,9 +102,11 @@
     margin: 2px;
 }
 
-#container-bares main .grid-cards .card-bar .bar-detail h4 strong { 
+#container-bares main .grid-cards .card-bar .bar-detail h4 img.dot { 
     margin-left: 10px;
     margin-right: 10px;
+    width: 5px;
+    height: 5px;
 
 }
 

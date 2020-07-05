@@ -4,6 +4,7 @@ import api from '../../services/api';
 import './styles.css';
 import star from '../../resources/star.png';
 import more from '../../resources/more.svg';
+import dot from '../../resources/dot.svg';
 
 interface Bar {
     id: number; 
@@ -67,7 +68,7 @@ const ListaBar = () => {
 
                                     <img key={s.toString()} src={star} alt="star"/>
                                 ))}
-                                <strong>-</strong>
+                                <img className="dot" src={dot} alt="dot"/>
                                 {bar.distancia}
                             </h4>
                             <div className="disponib">
