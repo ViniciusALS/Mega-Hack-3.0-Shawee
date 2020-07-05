@@ -45,7 +45,7 @@ const Questions = () => {
     return (
         <div id="container">
             <div className="title">
-                <h1>Precisamos saber mais sobre o que você espera da sua experiência nos nossos bares parceiros</h1>
+                <h1>Tenha uma melhor experiência nos nossos bares parceiros</h1>
                 <p>QUE TIPO DE COMODIDADES VOCÊ GOSTARIA DE ENCONTRAR NO BAR? </p>
             </div>
             <ul className="atrativos">
@@ -62,7 +62,7 @@ const Questions = () => {
                 ))}
             </ul>
             <div className="confirmar">
-                <a href="">Confirmar seleção</a>
+                <a href="/sel-cervejas">Confirmar seleção</a>
             </div>
         </div>
 

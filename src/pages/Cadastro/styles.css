@@ -4,6 +4,7 @@
 }
 
 #container header {
+    width: 100%;
     height: 150px;
     background: linear-gradient(0deg, #EAC176, #EAC176), #AAAAAA;
     color: #191814;
@@ -154,6 +155,7 @@
 
 #container footer {
     margin-top: 20px;
+    width: 100%;
     height: 80px;
     background: linear-gradient(0deg, #EAC176, #EAC176), #AAAAAA;
     color: #191814;
