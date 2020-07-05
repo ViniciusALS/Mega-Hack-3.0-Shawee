@@ -5,7 +5,7 @@ import api from '../../services/api';
 
 import './styles.css';
 import star from '../../resources/star.png';
-import phone from '../../resources/phone.svg';
+import phone from '../../resources/phone.png';
 
 interface Disponibilidade {
     id: number; 

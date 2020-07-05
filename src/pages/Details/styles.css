@@ -8,14 +8,14 @@
     top: 175px;
     right: 50px;
 
-    border: 1px solid rgb(112, 110, 110);
+    border: 0;
     border-radius: 100px;
-    background: rgb(235, 233, 233);
+    background: #EAC176;
     z-index: 10000;
 
 }
 #phone img {
-    
+    color: #fff;
     width: 25px;
     height: 25px;
 }
