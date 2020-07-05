@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
-import CardBar from '../../components/CardBar';
 import Cervejas from '../../components/cervejas/index';
+import CardBar from '../../components/CardBar';
+import CardEvento from '../../components/CardEvento';
 
 import api from '../../services/api';
 
