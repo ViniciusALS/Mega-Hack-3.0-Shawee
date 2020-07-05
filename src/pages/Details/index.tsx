@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'react-router';
+import { useHistory } from 'react-router-dom';
 import api from '../../services/api';
 
 import './styles.css';
 import star from '../../resources/star.png';
-import phone from '../../resources/phone.svg';
+import phone from '../../resources/phone.png';
 
 interface Disponibilidade {
-    id: Number; 
+    id: number; 
     nome: string; 
     imageURL: string;
 }
@@ -19,7 +20,7 @@ interface Cerveja {
 }
 
 interface Bar {
-    id: Number; 
+    id: number; 
     nome: string; 
     imageUrl: string; 
     nota: Number;
@@ -33,6 +34,8 @@ interface Bar {
 }
 
 const Detail = () => {
+
+    const history = useHistory();
 
     const { id } = useParams();
 
@@ -64,6 +67,11 @@ const Detail = () => {
             });
         }
     }, [id]);
+
+    const handleSelectCerveja = (id: number) => {
+        console.log(id);
+        history.push(`/cerveja-info/${id}`);
+    }
 
     return (
         <>
@@ -115,10 +123,11 @@ const Detail = () => {
                     <div className="cervejas">
                         <ul className="items-grid">
                             {cervejas.map( cerveja => (
-                                <li key={cerveja.id}>
-                                <img src={cerveja.imageUrl} alt={cerveja.title} />
-                                <span>
-                                    {cerveja.title}
+                                <li key={cerveja.id}
+                                    onClick={() => handleSelectCerveja(cerveja.id)}>
+                                    <img src={cerveja.imageUrl} alt={cerveja.title} />
+                                    <span>
+                                        {cerveja.title}
                                     </span> 
                                 </li>
                             ))}

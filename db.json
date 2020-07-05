@@ -1,21 +1,21 @@
 {
 	"cervejas": [
-		{ "id": 1,  "title": "Leffe", "imageUrl": "https://imgur.com/2t2lf5X.png" },
-		{ "id": 2,  "title": "Wäls",  "imageUrl": "https://imgur.com/88TwobO.png" },
-		{ "id": 3,  "title": "Hoegaarden", "imageUrl": "https://imgur.com/gQUIMVM.png" },
-		{ "id": 4,  "title": "Corona", "imageUrl": "https://imgur.com/dGrQaJe.png" },
-		{ "id": 5,  "title": "Colorado", "imageUrl": "https://imgur.com/MkbjUmP.png" },
-		{ "id": 6,  "title": "Skol", "imageUrl": "https://imgur.com/nhYKKRU.png" },
-		{ "id": 7,  "title": "Antarctica", "imageUrl": "https://imgur.com/iMuWrxH.png" },
-		{ "id": 8,  "title": "Brahma", "imageUrl": "https://imgur.com/NNjCbSP.png" },
-		{ "id": 9,  "title": "Budweiser", "imageUrl": "https://imgur.com/xUHnyyu.png" },
-		{ "id": 10, "title": "Stella Artois", "imageUrl": "https://imgur.com/svCDJDg.png" },
-		{ "id": 11, "title": "Serra Malte", "imageUrl": "https://imgur.com/TvOLtk1.png" },
-		{ "id": 12, "title": "Quilmes", "imageUrl": "https://imgur.com/hdobPoS.png" },
-		{ "id": 13, "title": "Patagonia", "imageUrl": "https://imgur.com/e4PlnK7.png" },
-		{ "id": 14, "title": "Nortena", "imageUrl": "https://imgur.com/TWkkOoU.png" },
-		{ "id": 15, "title": "Löwenbräu", "imageUrl": "https://imgur.com/Hd1uSQy.png" },
-		{ "id": 16, "title": "Franziskaner", "imageUrl": "https://imgur.com/3wqgkoT.png" }
+		{ "id": 1,  "estilo": "Belgian Dubbel", "familia": "Ale", "cor": "Marrom", "title": "Leffe", "garrafaImgUrl": "https://i.imgur.com/ku08o9X.png", "imageUrl": "https://imgur.com/2t2lf5X.png", "desc": "Encorpada e produzida com maltes nobres, a Cerveja Leffe Brown tem um aroma torrado com toque de caramelo. De sabor leve e notas de chocolate e toffe, esta é uma saborosa Belgian Dubbel de coloração âmbar escura. Uma cerveja bem carbonatada com evidente amargor em seu retrogosto. Experimente harmonizar o sabor da Leffe Brown com m porco assado ou um frango ao vinho. Criada em 1240 por clérigos da abadia de Leffe, a marca teve sua produção interrompida após a Revolução Francesa, até que, na década de 1950, Abbot Nys e Albert Lootvoet reviveram a tradição" },
+		{ "id": 2,  "estilo": "", "familia": "", "cor": "", "title": "Wäls", "garrafaImgUrl": "",  "imageUrl": "https://imgur.com/88TwobO.png" , "desc": ""},
+		{ "id": 3,  "estilo": "", "familia": "", "cor": "", "title": "Hoegaarden", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/gQUIMVM.png" , "desc": ""},
+		{ "id": 4,  "estilo": "", "familia": "", "cor": "", "title": "Corona", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/dGrQaJe.png", "desc": "" },
+		{ "id": 5,  "estilo": "", "familia": "", "cor": "", "title": "Colorado", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/MkbjUmP.png", "desc": "" },
+		{ "id": 6,  "estilo": "", "familia": "", "cor": "", "title": "Skol", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/nhYKKRU.png" , "desc": ""},
+		{ "id": 7,  "estilo": "", "familia": "", "cor": "", "title": "Antarctica", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/iMuWrxH.png", "desc": "" },
+		{ "id": 8,  "estilo": "", "familia": "", "cor": "", "title": "Brahma", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/NNjCbSP.png", "desc": "" },
+		{ "id": 9,  "estilo": "", "familia": "", "cor": "", "title": "Budweiser", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/xUHnyyu.png", "desc": "" },
+		{ "id": 10, "estilo": "", "familia": "", "cor": "", "title": "Stella Artois", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/svCDJDg.png" , "desc": ""},
+		{ "id": 11, "estilo": "", "familia": "", "cor": "", "title": "Serra Malte", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/TvOLtk1.png", "desc": "" },
+		{ "id": 12, "estilo": "", "familia": "", "cor": "", "title": "Quilmes", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/hdobPoS.png", "desc": "" },
+		{ "id": 13, "estilo": "", "familia": "", "cor": "", "title": "Patagonia", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/e4PlnK7.png", "desc": "" },
+		{ "id": 14, "estilo": "", "familia": "", "cor": "", "title": "Nortena", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/TWkkOoU.png", "desc": "" },
+		{ "id": 15, "estilo": "", "familia": "", "cor": "", "title": "Löwenbräu", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/Hd1uSQy.png", "desc": "" },
+		{ "id": 16, "estilo": "", "familia": "", "cor": "", "title": "Franziskaner", "garrafaImgUrl": "", "imageUrl": "https://imgur.com/3wqgkoT.png", "desc": "" }
 	],
 
 	"disponibilidades": [
@@ -46,6 +46,7 @@
         { "id": 4, "nome": "Banheiros Higienicos", "imageURL": "https://imgur.com/Ogral1Y.png" }
       ],
       "cervejas": [
+        { "id": 1,  "title": "Leffe", "imageUrl": "https://imgur.com/2t2lf5X.png" },
         { "id": 2,  "title": "Wäls",  "imageUrl": "https://imgur.com/88TwobO.png" },
         { "id": 3,  "title": "Hoegaarden", "imageUrl": "https://imgur.com/gQUIMVM.png" },
         { "id": 4,  "title": "Corona", "imageUrl": "https://imgur.com/dGrQaJe.png" },
