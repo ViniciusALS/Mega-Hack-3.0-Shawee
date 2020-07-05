@@ -5,7 +5,7 @@ import api from '../../services/api';
 import './styles.css';
 
 interface Disponibilidade {
-    id: Number; 
+    id: number; 
     nome: string; 
     imageURL: string;
 }
@@ -24,22 +24,45 @@ const Questions = () => {
 
     }, []);
 
+    function handleSelectItem(id: number) {
+
+        const alreadySelected = selectedItems.findIndex(item => item === id)
+
+        if ( alreadySelected >= 0) {
+
+            const filteredItems = selectedItems.filter(item => item !== id);
+            
+            setSelectedItems(filteredItems);
+        } else {
+
+            setSelectedItems([
+                ...selectedItems, id
+            ]);
+        }
+
+    }
+
     return (
         <div id="container">
             <div className="title">
                 <h1>Precisamos saber mais sobre o que você espera da sua experiência nos nossos bares parceiros</h1>
                 <p>QUE TIPO DE COMODIDADES VOCÊ GOSTARIA DE ENCONTRAR NO BAR? </p>
             </div>
-            <div className="atrativos">
+            <ul className="atrativos">
                 {items.map(item => (
-
-                    <div key={item.id.toString()} className="item">
+                    <li key={item.id} 
+                        onClick={() => handleSelectItem(item.id)}
+                        className={selectedItems.includes(item.id) ? 'selected' : '' }
+                        >
                         <div className="botao">
                             <img src={item.imageURL} alt={item.nome}/>
                         </div>
                         <p>{item.nome}</p>
-                    </div>
+                    </li>
                 ))}
+            </ul>
+            <div className="confirmar">
+                <a href="">Confirmar seleção</a>
             </div>
         </div>
 

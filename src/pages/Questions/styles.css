@@ -48,16 +48,16 @@
     align-items: center;
 }
 
-#container .item {
+#container li {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    cursor: pointer;
 }
 
-#container .item .botao {
+#container li .botao {
     width: 50px;
     height: 50px;
     background: #535c633f;
@@ -65,15 +65,49 @@
     border-radius: 40px;
 }
 
-#container .item .botao img {
+#container li .botao img {
     width: 25px;
     height: 25px;
     padding-top: 13px;
     padding-left: 13px;
 }
 
-#container .item p {
+#container li p {
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
 }
+
+#container li.selected {
+    color: #955F2A;
+}
+
+#container li.selected .botao {
+    border: 2px solid #955F2A;
+
+}
+
+#container .confirmar {
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container .confirmar a { 
+
+    width: 90%;
+    height: 40px;
+    border-radius: 30px;
+    background: #EAC176;
+    color: #955F2A;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
