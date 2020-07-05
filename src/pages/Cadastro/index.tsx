@@ -38,7 +38,7 @@ const Cadastro = () => {
                     </div>
                 </div>
                 <div className="confirm-botao">
-                    <a href="" className="botao">Fazer cadastro</a>
+                    <a href="/questions" className="botao">Fazer cadastro</a>
                 </div>
             </form>
             <footer>
