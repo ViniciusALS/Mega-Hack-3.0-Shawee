@@ -15,7 +15,6 @@ type Evento = {
 
 const CardEvento: React.FC<Evento> = ({ nome, imageURL, bar, data, hora }) => {
 
-  console.log(imageURL);
 	return (
 		<div className="card-evento">
 			<img className='card-evento-img' src={imageURL} alt='Foto do evento' />

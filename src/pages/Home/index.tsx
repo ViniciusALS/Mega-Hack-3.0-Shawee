@@ -25,7 +25,7 @@ type Bar = {
 }
 
 type Evento = {
-	id: number,
+	id: number
 	nome: string,
 	imageUrl: string,
 	bar: {
@@ -70,6 +70,7 @@ const Home = () => {
 			<div className='home-bares'> {
 				bares.slice(0, 2).map(bar => 
 					<CardBar
+						key={bar.id}
 						nome={bar.nome}
 						imageURL={bar.imageUrl}
 						nota={bar.nota}
@@ -81,8 +82,9 @@ const Home = () => {
 			<h3>O que vai rolar</h3>
 			
 			<div className='home-bares'> {
-				eventos.slice(0, 2).map(evento => 
+				eventos.slice(0, 2).map(evento =>
 					<CardEvento
+						key={evento.id}
 						nome={evento.nome}
 						imageURL={evento.imageUrl}
 						bar={evento.bar}
@@ -92,6 +94,14 @@ const Home = () => {
 			} </div>
 			
 			<h3>Promoções</h3>
+
+			<img
+				className='promocoes'
+				src='../../resources/propaganda.png'
+				alt='Promoções' />
+			
+			<footer className='home-footer'></footer>
+
 		</div>		
 	);
 }
