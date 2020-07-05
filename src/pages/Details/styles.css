@@ -231,7 +231,6 @@
     border: 0;
     height: 100px;
     padding: 22px 14px 6px;
-    pointer-events:none;
   
     display: flex;
     flex-direction: column;
@@ -259,7 +258,7 @@
   }
 
   #detail-container main .cervejas .preferidas p.delivery {
-    margin: 10px auto;
+    margin: 10px;
     color: #955F2A;
     font-weight: bold;
     font-size: 12px;

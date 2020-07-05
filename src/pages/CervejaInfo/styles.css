@@ -1,0 +1,110 @@
+#container-cerveja-info {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-cerveja-info header { 
+    margin: 15px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+#container-cerveja-info header p { 
+
+    text-transform: uppercase;
+    color: #955F2A;
+    font-weight: bold;
+    letter-spacing: 2px;
+} 
+
+#container-cerveja-info  main {
+    width: 100%;
+    border: 0;
+    border-radius: 35px;
+    background: #FFB331;
+}
+
+#container-cerveja-info  main .title { 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-cerveja-info  main .caract p {
+    margin: 0px 0px 5px 25px; 
+
+} 
+
+#container-cerveja-info  main .caract p.desc {
+    margin: 50px 20px 30px 25px
+
+}
+
+#container-cerveja-info footer {
+    width: 100%;
+    margin-top: 15px;
+}
+
+#container-cerveja-info footer .actions {
+    width: 100%;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 60px 60px;
+    gap: 20px;
+    justify-items: center;
+    align-items: center;
+}
+
+#container-cerveja-info footer .actions a {
+    margin-bottom: 15px;
+}
+
+#container-cerveja-info footer .actions a.confirmar {
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    background: #EAC176;
+    color: #955F2A;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+#container-cerveja-info footer .actions a.confirmar-ze {
+    width: 80%;
+    height: 50px;
+    border-radius: 30px;
+    background: #fff;
+    border: 2px solid #955F2A;
+    color: #955F2A;
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.garrafa {
+    position: absolute;
+    top: 100px;
+    right: 30px;
+    z-index: 1000;
+}
+
+.garrafa img {
+    width: 80px;
+    height: 220px;
+}
