@@ -112,17 +112,17 @@
     { 
       "id": 1, 
       "nome": "Cover Bon Jovi",  
-      "imageUrl": "", 
+      "imageUrl": "https://imgur.com/1hiki1q.png", 
       "bar": { "id": 2, "nome": "Rock Bar", "distancia": "200m" },
-      "data": "13 / 07",
+      "data": "13/07",
       "hora": "22:30"
     },
     { 
       "id": 2, 
       "nome": "Jogo do Flamengo",  
-      "imageUrl": "", 
+      "imageUrl": "https://imgur.com/CAyfxoN.png", 
       "bar": { "id": 3, "nome": "Puzzles", "distancia": "50m" },
-      "data": "15 / 07",
+      "data": "15/07",
       "hora": "16:00"
     }
   ]

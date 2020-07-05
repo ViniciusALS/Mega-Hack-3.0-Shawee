@@ -10,24 +10,38 @@ import './styles.css';
 
 
 interface Disponibilidade {
-    id: number; 
-    nome: string; 
-    imageURL: string;
+		id: number; 
+		nome: string; 
+		imageURL: string;
 }
 
 type Bar = {
-    id: number; 
-    nome: string; 
-    imageUrl: string; 
-    nota: number;
-    distancia: string;
-    disponibilidades: Disponibilidade[];
+		id: number; 
+		nome: string; 
+		imageUrl: string; 
+		nota: number;
+		distancia: string;
+		disponibilidades: Disponibilidade[];
+}
+
+type Evento = {
+	id: number,
+	nome: string,
+	imageUrl: string,
+	bar: {
+		id: number,
+		nome: string,
+		distancia: string
+	},
+	data: string,
+	hora: string
 }
 
 const Home = () => {
 
 	const [selectedItems, setSelectedItems] = useState<number[]>([]);
 	const [bares, setBares] = useState<Bar[]>([]);
+	const [eventos, setEventos] = useState<Evento[]>([]);
 	
 	const setItems = (id: number) => {
 		const alreadySelected = selectedItems.findIndex(item => item === id)
@@ -43,6 +57,7 @@ const Home = () => {
 
 	useEffect(() => {
 		api.get('bares').then(res => setBares(res.data));
+		api.get('eventos').then(res => setEventos(res.data));
 	}, []);
 
 	return (
@@ -64,6 +79,18 @@ const Home = () => {
 			} </div>
 			
 			<h3>O que vai rolar</h3>
+			
+			<div className='home-bares'> {
+				eventos.slice(0, 2).map(evento => 
+					<CardEvento
+						nome={evento.nome}
+						imageURL={evento.imageUrl}
+						bar={evento.bar}
+						data={evento.data}
+						hora={evento.hora} />
+				)
+			} </div>
+			
 			<h3>Promoções</h3>
 		</div>		
 	);

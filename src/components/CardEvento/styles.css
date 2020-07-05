@@ -47,3 +47,9 @@
 	height: 20px;
 	margin-right: 0.5em;
 }
+
+.card-evento-data-hora {
+	color: #222;
+	font-size: 0.6em;
+	font-weight: 700;
+}
